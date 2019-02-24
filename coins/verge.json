@@ -1,0 +1,7 @@
+{
+    "name": "Verge",
+    "symbol": "XVG",
+    "algorithm": "scrypt",
+    "peerMagic": "f7a77aff",
+    "peerMagicTestnet": "cdf2c0ef"
+}

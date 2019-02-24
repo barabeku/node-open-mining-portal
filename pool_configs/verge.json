@@ -1,12 +1,11 @@
 {
-    "enabled": false,
-    "coin": "litecoin.json",
+    "enabled": true,
+    "coin": "verge.json",
 
-    "address": "n4jSe18kZMCdGcZqaYprShXW6EH1wivUK1",
+    "address": "oUYH3LvxckKsczcva33fag7ChXaXp3mFCk",
 
     "rewardRecipients": {
-        "n37vuNFkXfk15uFnGoVyHZ6PYQxppD3QqK": 1.5,
-        "22851477d63a085dbc2398c8430af1c09e7343f6": 0.1
+        "ofuJ2n6scRU8Qym5v8jM25k9G4yh6zY4EG": 10
     },
 
     "paymentProcessing": {
@@ -16,15 +15,12 @@
         "daemon": {
             "host": "127.0.0.1",
             "port": 19332,
-            "user": "testuser",
-            "password": "testpass"
+            "user": "test",
+            "password": "test"
         }
     },
 
     "ports": {
-        "3008": {
-            "diff": 8
-        },
         "3032": {
             "diff": 32,
             "varDiff": {
@@ -34,9 +30,6 @@
                 "retargetTime": 90,
                 "variancePercent": 30
             }
-        },
-        "3256": {
-            "diff": 256
         }
     },
 
@@ -44,15 +37,15 @@
         {
             "host": "127.0.0.1",
             "port": 19332,
-            "user": "testuser",
-            "password": "testpass"
+            "user": "test",
+            "password": "test"
         }
     ],
 
     "p2p": {
         "enabled": true,
         "host": "127.0.0.1",
-        "port": 19333,
+        "port": 21104,
         "disableTransactions": true
     },
 
@@ -66,5 +59,4 @@
         "checkPassword": true,
         "autoCreateWorker": false
     }
-
 }
