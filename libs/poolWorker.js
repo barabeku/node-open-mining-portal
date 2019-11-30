@@ -165,7 +165,7 @@ module.exports = function (logger) {
 
                 var authString = authorized ? 'Authorized' : 'Unauthorized ';
 
-                logger.debug(logSystem, logComponent, logSubCat, authString + ' ' + workerName + ':' + password + ' [' + ip + ']');
+                logger.debug(logSystem, logComponent, logSubCat, authString + ' ' + workerName + ' [' + ip + ']');
                 callback({
                     error: null,
                     authorized: authorized,
