@@ -31,7 +31,6 @@
     "url": "https://github.com/zone117x/node-open-mining-portal.git"
   },
   "dependencies": {
-    "stratum-pool": "git://github.com/marpme/node-stratum-pool.git",
     "dateformat": "1.0.12",
     "node-json-minify": "*",
     "redis": "0.12.1",
@@ -46,8 +45,8 @@
     "request": "2.69.0",
     "nonce": "*",
     "extend": "*",
-    "multi-hashing": "git://github.com/cryptosharks131/node-multi-hashing.git",
-    "bignum": "0.12.5",
+    "bignum": "0.13.0",
+    "multi-hashing": "git://github.com/marpme/node-multi-hashing.git",
     "base58-native": "*"
   },
   "engines": {
