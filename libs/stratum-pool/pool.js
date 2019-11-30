@@ -8,10 +8,10 @@ var stratum = require('./stratum.js');
 var jobManager = require('./jobManager.js');
 var util = require('./util.js');
 
-/*process.on('uncaughtException', function(err) {
+process.on('uncaughtException', function (err) {
     console.log(err.stack);
     throw err;
-});*/
+});
 
 var pool = (module.exports = function pool(options, authorizeFn) {
     this.options = options;
@@ -654,7 +654,7 @@ var pool = (module.exports = function pool(options, authorizeFn) {
                         );
                     })
                     .on('socketDisconnect', function () {
-                        //emitLog('Socket disconnected from ' + client.getLabel());
+                        emitLog('Socket disconnected from ' + client.getLabel());
                     })
                     .on('kickedBannedIP', function (remainingBanTime) {
                         emitLog(
