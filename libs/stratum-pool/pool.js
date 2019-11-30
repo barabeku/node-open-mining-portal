@@ -508,7 +508,7 @@ var pool = (module.exports = function pool(options, authorizeFn) {
 
             options.poolAddressScript = (function () {
                 return util.pubkeyToScript(
-                    rpcResults.validateaddress.scriptPubKey
+                    rpcResults.validateaddress.pubkey
                 );
             })();
 
