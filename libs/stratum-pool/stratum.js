@@ -82,7 +82,7 @@ var StratumClient = function (options) {
                 sendJson({
                     id: message.id,
                     result: false,
-                    error: [20, "Not supported.", null]
+                    error: false,
                 });
                 break;
             default:
